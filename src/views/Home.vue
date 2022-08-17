@@ -1,5 +1,6 @@
 <script setup>
 import { useRouter } from "vue-router";
+import Typewriter from "../Components/Typewriter.vue";
 
 const router = useRouter();
 
@@ -24,7 +25,8 @@ const logout = async () => {
 </script>
 <template>
   <main>
-    <h1>home here</h1>
+    <!-- <h1>home here</h1> -->
+    <Typewriter />
     <button @click="logout">Logout</button>
   </main>
 </template>
